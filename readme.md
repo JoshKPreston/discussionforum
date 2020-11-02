@@ -14,6 +14,7 @@ AUTH_AUDIENCE=
 AUTH_CLIENT_ID=
 ```
 
+#testing readme
 ### MVC - Controllers
 
 This template will automatically register all of the controllers found in the controllers folder of the server. This opinionated workflow should help provide a structure on how to build your api. Generally speaking every controller method should start with a `try catch block` and utilize the default error handler setup in Startup.js This means if a request ever fails the controller should call the next function with the error provided.
