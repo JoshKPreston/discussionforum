@@ -21,6 +21,10 @@ body {
   height: 100vh;
 }
 
+span, h5, h6 {
+  cursor: pointer;
+}
+
 .mt-100 {
   margin-top: 80px
 }
@@ -116,8 +120,14 @@ border: 1px solid #04f82d
   margin: 0 auto;
 }
 
+.post-img {
+  text-align: center;
+}
+
 .post-img img{
-margin: 0 auto;
+  height: 50px;
+  width: 50px;
+  outline: 1px solid red;
 }
 
 

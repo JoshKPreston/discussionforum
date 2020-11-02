@@ -9,7 +9,7 @@ function _draw() {
         <form class="col-4" onsubmit="app.postController.create(event)">
             <input class="form-control input" id="postTitle" type="text" name="postTitle" placeholder="Create new post..." required>
             <input class="form-control input" id="postQuestion" type="text" name="postQuestion" placeholder="Add question..." required>
-            <button class="btn btn-outline-success btn-lg btn-block" type="submit">Create Post</button>
+            <button class="btn btn-outline-success btn-lg btn-block create-post-btn" type="submit">Create Post</button>
         </form>
     </div>
   `;
